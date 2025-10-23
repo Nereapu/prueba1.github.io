@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    </head>
+    <body>
+        <!--formulario-->
+        <form method="get">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Pon tu primer nombre aqui"><!--no tine cierre-->
+            <br>
+
+            <label for="apellido">Apellidos</label>
+            <input type="text" id="apellido" name="apellido">
+            <br>
+
+            <label>Contrseña</label>
+            <input type="password" name="password">
+            <br>
+
+            <label for="age">Edad:</label>
+            <input type="number" id="age" name="age" value="18" required="required">
+            <br>
+             <label for="school">Instituto:</label>
+            <input type="text" id="school" name="school" value="Tierno" disabled>
+            <br>
+             <label for="course">Curso:</label>
+            <input type="text" id="course" name="course" value="DAW" readonly>
+            <br>
+            
+            
+            <label for="genero">Genero: </label>
+
+            <label for="male">Hombre</label>
+            <input type="radio" id="male" name="genero" value="male">
+            <label for="female">Mujer</label>
+            <input type="radio" id="female" name="genero" value="female">
+            <br>
+
+
+
+            <label for="phone">Telefono</label>
+            <input type="text" id="phone" name="phone">
+
+            <br>
+            <!--signacion cuadrado-->
+            <label for="lm">LM</label>
+            <input type="checkbox" id="lm" name="subject" value="lm">
+            <br>
+             <label for="bd">BD</label>
+            <input type="checkbox" id="bd" name="subject" value="bd">
+           
+            <br>
+            <label for="Basket">Baloncesto</label>
+            <select id="Basket" name="brasket">
+                <option value="lalakers">La Lakers</option>
+                 <option value="dallas">Dallas</option>
+            </select>
+            <br>
+            <label for="color">Color</label>
+            <input type="color" id="color" name="color">
+            <br>
+             <label for="birthdate">Cumple</label>
+            <input type="date" id="birthdate" name="birthdate">
+            <br>
+            
+           <!--<textarea id="oponion" name="option" rows="5" cols="33"> --> 
+           <!--botton-->
+            <input type="submit" value="EnviarFormulario">
+
+        </form>
+
+    </body>
+</html>
